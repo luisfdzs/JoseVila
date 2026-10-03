@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -13,9 +15,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/luisfdzs/JoseVila/issues"
   },
-  "homepage": "https://github.com/luisfdzs/JoseVila#readme"
+  "homepage": "https://github.com/luisfdzs/JoseVila#readme",
+  "dependencies": {
+    "dotenv": "18.0.5",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
 }
